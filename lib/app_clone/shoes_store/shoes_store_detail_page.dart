@@ -78,7 +78,7 @@ class ShoesStoreDetailPage extends StatelessWidget {
             Align(
                 alignment: Alignment.topCenter,
                 child: Padding(
-                    padding: EdgeInsets.only(top: size.height * 0.7),
+                    padding: EdgeInsets.only(top: size.height * 0.5),
                     child: Text(
                       "Price: ${shoe.price}",
                       style: TextStyle(color: Colors.black),
@@ -86,7 +86,7 @@ class ShoesStoreDetailPage extends StatelessWidget {
             Align(
                 alignment: Alignment.topCenter,
                 child: Padding(
-                    padding: EdgeInsets.only(top: size.height * 0.7),
+                    padding: EdgeInsets.only(top: size.height * 0.55, left: size.width * 0.05, right: size.width * 0.05),
                     child: Text(
                       "${shoe.desc}",
                       style: TextStyle(color: Colors.black, fontSize: 30),
