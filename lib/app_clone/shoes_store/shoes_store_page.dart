@@ -16,12 +16,14 @@ class Shoe {
   final String image;
   final double price;
   final Color color;
+  final String desc;
 
   const Shoe({
     this.name,
     this.image,
     this.price,
     this.color,
+    this.desc,
   });
 }
 
@@ -30,22 +32,30 @@ const shoes = [
       name: 'NIKE EPICT-REACT',
       price: 130.00,
       image: 'images/shoes/1.png',
-      color: Color(0xFF5574b9)),
+      color: Color(0xFF5574b9),
+      desc:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
   const Shoe(
       name: 'NIKE AIR-MAX',
       price: 130.00,
       image: 'images/shoes/2.png',
-      color: Color(0xFF52b8c3)),
+      color: Color(0xFF52b8c3),
+      desc:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
   const Shoe(
       name: 'NIKE AIR-270',
       price: 150.00,
       image: 'images/shoes/3.png',
-      color: Color(0xFFE3AD9B)),
+      color: Color(0xFFE3AD9B),
+      desc:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
   const Shoe(
       name: 'NIKE EPICT-REACTII',
       price: 160.00,
       image: 'images/shoes/4.png',
-      color: Color(0xFF444547)),
+      color: Color(0xFF444547),
+      desc:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."),
 ];
 
 const shoesBottom = [
